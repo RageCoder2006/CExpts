@@ -8,13 +8,13 @@ int main(){
     scanf("%f%f%f",&a,&b,&c);
     D = pow(b,2)-4*a*c;
     if (D>0){
-        xone = (-b + D)/(2*a);
-        xtwo = (-b - D)/(2*a);
+        xone = (-b + sqrt(D))/(2*a);
+        xtwo = (-b - sqrt(D))/(2*a);
         printf("Roots are: %f, %f",xone,xtwo);
     }
     else if (D==0){
-        xone = (-b + D)/(2*a);
-        xtwo = (-b - D)/(2*a);
+        xone = (-b + sqrt(D))/(2*a);
+        xtwo = xone;
         printf("Roots are: %f, %f",xone,xtwo);
     }
     else if (D<0){

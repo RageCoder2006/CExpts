@@ -1,7 +1,7 @@
 // Gross Salary of an Employee
 #include <stdio.h>
-int main()
-{
+
+int main() {
     int basic_sal, hra, da, ta, gross_sal;
     printf("Enter Basic Salary: ");
     scanf("%d", &basic_sal);
