@@ -1,5 +1,4 @@
 // cosine of an angle
-// cos = x
 #include <stdio.h>
 #include <math.h>
 
